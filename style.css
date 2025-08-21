@@ -1,0 +1,110 @@
+/* حاوية القائمة */
+#todo-container {
+    background-color: #A8DADC; /* تركواز باستيل */
+    height: auto;
+    padding: 20px;
+    width: 400px;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* عنوان القائمة */
+.todo-title {
+    color: #1D3557; /* كحلي */
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+
+/* الجسم */
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #F9F7F7; /* خلفية ناعمة */
+}
+
+/* حقل الإدخال */
+.todo-input {
+    outline: none;
+    border: 1px solid #ddd;
+    height: 30px;
+    width: 80%;
+    border-radius: 7px;
+    padding: 0 10px;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+/* زر الإضافة */
+.todo-add-btn {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    height: 30px;
+    background-color: #457B9D; /* أزرق باستيل */
+    color: #ffffff;
+    cursor: pointer;
+    padding: 0 10px;
+}
+
+.todo-add-btn:hover {
+    background-color: #1D3557; /* أزرق كحلي */
+}
+
+/* قائمة المهام */
+.todo-list-wrapper {
+    margin-top: 15px;
+}
+
+.todo-list {
+    list-style: none;
+    padding: 10px;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: #2D2D2D;
+}
+
+/* مربع الاختيار */
+ol li input {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* نص المهمة */
+span {
+    display: inline-block;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+
+/* زر الحذف */
+ol li button {
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    background-color: #E63946; /* أحمر باستيل */
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+ol li button:hover {
+    background-color: #9D0208; /* أحمر غامق */
+}
