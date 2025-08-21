@@ -1,6 +1,6 @@
-/* حاوية القائمة */
+
 #todo-container {
-    background-color: #A8DADC; /* تركواز باستيل */
+    background-color: #A8DADC; 
     height: auto;
     padding: 20px;
     width: 400px;
@@ -8,14 +8,14 @@
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
-/* عنوان القائمة */
+
 .todo-title {
-    color: #1D3557; /* كحلي */
+    color: #1D3557; 
     font-family: 'Dancing Script', cursive;
     text-align: center;
 }
 
-/* الجسم */
+
 body {
     font-family: 'Roboto', Arial, sans-serif;
     display: flex;
@@ -23,10 +23,10 @@ body {
     align-items: center;
     min-height: 100vh;
     margin: 0;
-    background-color: #F9F7F7; /* خلفية ناعمة */
+    background-color: #F9F7F7; 
 }
 
-/* حقل الإدخال */
+
 .todo-input {
     outline: none;
     border: 1px solid #ddd;
@@ -37,26 +37,23 @@ body {
     font-family: 'Roboto', Arial, sans-serif;
 }
 
-/* زر الإضافة */
+
 .todo-add-btn {
     outline: none;
     border: none;
     border-radius: 5px;
     height: 30px;
-    background-color: #457B9D; /* أزرق باستيل */
+    background-color: #457B9D; 
     color: #ffffff;
     cursor: pointer;
     padding: 0 10px;
 }
 
 .todo-add-btn:hover {
-    background-color: #1D3557; /* أزرق كحلي */
+    background-color: #1D3557; 
 }
 
-/* قائمة المهام */
-.todo-list-wrapper {
-    margin-top: 15px;
-}
+
 
 .todo-list {
     list-style: none;
@@ -71,14 +68,13 @@ li {
     color: #2D2D2D;
 }
 
-/* مربع الاختيار */
+
 ol li input {
     height: 20px;
     width: 20px;
     margin-right: 10px;
 }
 
-/* نص المهمة */
 span {
     display: inline-block;
     width: 300px;
@@ -93,12 +89,11 @@ span {
 }
 
 
-/* زر الحذف */
 ol li button {
     outline: none;
     border: none;
     border-radius: 5px;
-    background-color: #E63946; /* أحمر باستيل */
+    background-color: #E63946; 
     color: #ffffff;
     cursor: pointer;
     padding: 5px 10px;
@@ -106,5 +101,5 @@ ol li button {
 }
 
 ol li button:hover {
-    background-color: #9D0208; /* أحمر غامق */
+    background-color: #9D0208; 
 }
